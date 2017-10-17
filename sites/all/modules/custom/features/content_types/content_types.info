@@ -1,0 +1,15 @@
+name = Content types
+description = Content type settings
+core = 7.x
+package = Custom
+version = 7.x-1.1
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = comment_body
+features[field_base][] = field_new_field
+features[field_instance][] = node-test_content_type-body
+features[field_instance][] = node-test_content_type-field_new_field
+features[node][] = test_content_type
+project path = sites/all/modules/custom/features
