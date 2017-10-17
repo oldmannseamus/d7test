@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the alt_text_view feature.
+ */
+
+include_once 'alt_text_view.features.inc';
